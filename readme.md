@@ -30,10 +30,10 @@ Here are some features of the application. A more detailed description of all co
 To run this application a java runtime environment is neccessary.
 
 **Windows**:
-Just download the *MP33ToolKit_Windows.zip* and extract it in a folder of your choice (it is recommended that this folder is empty). It is usuable out of the box and nothing needs to be installed. Mp3Gain is included in this bundle and does not need to be installed seperatly.
+Just download the *MP33ToolKit_Windows.zip* ([here](https://github.com/cf86/MP3ToolKit/blob/master/MP3ToolKit_Windows.zip?raw=true)) and extract it in a folder of your choice (it is recommended that this folder is empty). It is usuable out of the box and nothing needs to be installed. Mp3Gain is included in this bundle and does not need to be installed seperatly.
 
 **Linux/Mac OS X**:
-Download the *MP3ToolKit_Linux.zip* and extract it in a folder of your choice (it is recommended that this folder is empty). This zip file only contains the runnable \*.jar file which can be startet using any java runtime environment. In order to use the *Mp3Gain* function *Mp3Gain* needs to be installed. On the most linux derivatives like Ubuntu or Debian this can be done using
+Download the *MP3ToolKit_Linux.zip* ([here](https://github.com/cf86/MP3ToolKit/blob/master/MP3ToolKit_Linux.zip?raw=true)) and extract it in a folder of your choice (it is recommended that this folder is empty). This zip file only contains the runnable \*.jar file which can be startet using any java runtime environment. In order to use the *Mp3Gain* function *Mp3Gain* needs to be installed. On the most linux derivatives like Ubuntu or Debian this can be done using
 ```shell
 apt-get install mp3gain
 ```
