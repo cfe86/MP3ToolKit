@@ -185,10 +185,6 @@ register("id3Tab", new ID3TagTab(), new ID3TagController(), new String[] {"Renam
 register("mp3GainTab", new MP3GainTab(), new MP3GainController(), new String[] {});
 register("RenameTab", new RenameToolTab(), new RenameToolController(), new String[] {});
 register("StructureTab", new FolderCreatorTab(), new FolderCreatorController(), new String[] {});
-		
-register("ID3", new SmartcastPanel(), new SmartcastController(), new String[]{"champinfoTab", "Main", "exampleTab"});
-register("champnoteTab", new ChampNotePanel(), new ChampionNoteController(), new String[]{});
-register("exampleTab", new ExampleTab(), new ExampleController(), new String[]{"smartcastTab"});
 ```
 The first String is the _identifier_ which will be used for this _controller_. This _identifier_ is also used in [JMLS](https://github.com/cf86/JMLS) in the `MainWindow` _languagefile_. The second parameter is an instance of the created tab and the third parameter is an instance of the corresponding _controller_. The fourth parameter contains the _identifiers_ of all other _controller_ this new _controller_ should be observed by. For example in the example above the `id3Tab` will be observed by the `RenameTab` and the `MainWindow` (short '_Main_'). This is only neccessary if 2 tabs are dependent to each other. Right now this is not the case.
 
