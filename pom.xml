@@ -5,7 +5,7 @@
 	<artifactId>MP3ToolKit</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>JMLS</name>
+	<name>MP3 Tool Kit</name>
 	<description>MP3 Tool Kit is a bundle of tools to edit ID3Tags, adjust the volume using Mp3Gain, rename your audio file depending on a special syntax and create a folder tree or sort your mp3s into your music collection.</description>
 	<url>https://github.com/cf86/MP3ToolKit</url>
 
