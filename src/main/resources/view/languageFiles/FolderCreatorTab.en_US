@@ -1,0 +1,149 @@
+window=Structure Generator
+
+FolderNotFound=The given Source Folder doesn't exist.
+FileNotFound=File not Found!
+TargetFolderNotFound=The given target Folder doesn't exist.
+regexEmpty=The filename regex field is empty.
+structureEmpty=The structure regex field is empty.
+copyError=Error while copying MP3s.
+
+structureHelp.labelJar=view/languageFiles/subfiles/StructureHelp.en_US
+regexHelp.labelJar=view/languageFiles/subfiles/RegexHelp.en_US
+
+Col1=Path
+Col2=new Path
+
+***********
+* JButton *
+***********
+addFileB.label=
+addFileB.icon=view/images/general/addFile.png
+addFileB.shortcut=
+addFileB.actionCommand=addFileB
+addFileB.toolTip=Adds a file to the list.
+
+deleteAllB.label=
+deleteAllB.icon=view/images/general/deleteAll.png
+deleteAllB.shortcut=
+deleteAllB.actionCommand=deleteAllB
+deleteAllB.toolTip=Deletes all loaded files from the list.
+
+deleteFileB.label=
+deleteFileB.icon=view/images/general/deleteFile.png
+deleteFileB.shortcut=
+deleteFileB.actionCommand=deleteFileB
+deleteFileB.toolTip=Deletes the selected files from the list.
+
+addFolderB.label=
+addFolderB.icon=view/images/general/addFolder.png
+addFolderB.shortcut=
+addFolderB.actionCommand=addFolderB
+addFolderB.toolTip=Adds a all files from a folder to the list.
+
+showChangesB.label=
+showChangesB.icon=view/images/general/analyse.png
+showChangesB.shortcut=
+showChangesB.actionCommand=showChangesB
+showChangesB.toolTip=Analyzes the files and shows the changes which would be made.
+
+makeStructureB.label=
+makeStructureB.icon=view/images/general/start.png
+makeStructureB.shortcut=
+makeStructureB.actionCommand=makeStructureB
+makeStructureB.toolTip=Applies the made changes and creates the folder structure and copies (not move, the files remain at their location too) the files to the new destination.
+
+targetFolderOpenB.label=
+targetFolderOpenB.icon=view/images/general/openFile.png
+targetFolderOpenB.shortcut=
+targetFolderOpenB.actionCommand=targetOpenB
+targetFolderOpenB.toolTip=
+
+*************
+* JCheckBox *
+*************
+recursiveChB.label=recursive
+recursiveChB.icon=
+recursiveChB.shortcut=
+recursiveChB.actionCommand=recursiveChB
+recursiveChB.toolTip=If checked subfolders will be scanned too.
+
+**********
+* JLabel *
+**********
+structureJL.label=Structure:
+structureJL.icon=
+structureJL.toolTip=
+
+regexJL.label=Regex:
+regexJL.icon=
+regexJL.toolTip=
+
+targetJL.label=Target:
+targetJL.icon=
+targetJL.toolTip=
+
+************
+* JMenuBar *
+************
+menuMB.toolTip=
+
+*********
+* JMenu *
+*********
+langMenuM.label=Language
+langMenuM.icon=
+langMenuM.shortcut=
+langMenuM.actionCommand=langMenuM
+langMenuM.toolTip=
+
+**********
+* JPanel *
+**********
+regexHelpIP.toolTipJar=view/languageFiles/subfiles/RegexHelp.en_US
+
+structureHelpIP.toolTipJar=view/languageFiles/subfiles/StructureHelp.en_US
+
+structureP.label=Folder Information:
+structureP.toolTip=
+
+filesP.label=Files:
+filesP.toolTip=
+
+infoP.label=Get Information From:
+infoP.toolTip=
+
+****************
+* JRadioButton *
+****************
+filenameRB.label=Filename
+filenameRB.icon=
+filenameRB.shortcut=
+filenameRB.actionCommand=filenameRB
+filenameRB.toolTip=The neccessary information will be taken from the filename depending on the given regex expression.
+
+id3tagRB.label=ID3Tag
+id3tagRB.icon=
+id3tagRB.shortcut=
+id3tagRB.actionCommand=id3tagRB
+id3tagRB.toolTip=The neccessary information will be taken from the ID3 tag depending on the given regex expression.
+
+*************
+* JComboBox *
+*************
+regexCB.shortcut=
+regexCB.actionCommand=regexCB
+regexCB.toolTip=The expression which should be used to get the neccessary information to generate the folder structure.
+
+structureCB.shortcut=
+structureCB.actionCommand=structureCB
+structureCB.toolTip=The expression which should be used to generate the folder structure.
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+**************
+* JTextField *
+**************
+targetFolderTF.toolTip=The target folder where the folder structure should be generated in.

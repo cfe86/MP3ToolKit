@@ -1,0 +1,233 @@
+window=Field Replacer
+
+convert=convert
+to=to
+
+***********
+* JButton *
+***********
+deleteB.label=delete
+deleteB.icon=
+deleteB.shortcut=
+deleteB.actionCommand=deleteB
+deleteB.toolTip=
+
+startB.label=
+startB.icon=view/images/id3tag/subwindows/ok.png
+startB.shortcut=
+startB.actionCommand=startB
+startB.toolTip=
+
+cancelB.label=
+cancelB.icon=view/images/id3tag/subwindows/close.png
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+addB.label=add
+addB.icon=
+addB.shortcut=
+addB.actionCommand=addB
+addB.toolTip=
+
+*************
+* JCheckBox *
+*************
+origArtistChB.label=Orig. Artist
+origArtistChB.icon=
+origArtistChB.shortcut=
+origArtistChB.actionCommand=origArtistChB
+origArtistChB.toolTip=
+
+albumArtistChB.label=Album Artist
+albumArtistChB.icon=
+albumArtistChB.shortcut=
+albumArtistChB.actionCommand=albumArtistChB
+albumArtistChB.toolTip=
+
+albumChB.label=Album
+albumChB.icon=
+albumChB.shortcut=
+albumChB.actionCommand=albumChB
+albumChB.toolTip=
+
+composerChB.label=Composer
+composerChB.icon=
+composerChB.shortcut=
+composerChB.actionCommand=composerChB
+composerChB.toolTip=
+
+artistChB.label=Artist
+artistChB.icon=
+artistChB.shortcut=
+artistChB.actionCommand=artistChB
+artistChB.toolTip=
+
+copyrightChB.label=Copyright
+copyrightChB.icon=
+copyrightChB.shortcut=
+copyrightChB.actionCommand=copyrightChB
+copyrightChB.toolTip=
+
+yearChB.label=Year
+yearChB.icon=
+yearChB.shortcut=
+yearChB.actionCommand=yearChB
+yearChB.toolTip=
+
+cdChB.label=CD
+cdChB.icon=
+cdChB.shortcut=
+cdChB.actionCommand=cdChB
+cdChB.toolTip=
+
+commentChB.label=Comment
+commentChB.icon=
+commentChB.shortcut=
+commentChB.actionCommand=commentChB
+commentChB.toolTip=
+
+urlChB.label=URL
+urlChB.icon=
+urlChB.shortcut=
+urlChB.actionCommand=urlChB
+urlChB.toolTip=
+
+trackChB.label=Track#
+trackChB.icon=
+trackChB.shortcut=
+trackChB.actionCommand=trackChB
+trackChB.toolTip=
+
+titleChB.label=Title
+titleChB.icon=
+titleChB.shortcut=
+titleChB.actionCommand=titleChB
+titleChB.toolTip=
+
+selectAllChB.label=de/select all
+selectAllChB.icon=
+selectAllChB.shortcut=
+selectAllChB.actionCommand=selectAllChB
+selectAllChB.toolTip=
+
+maxCDChB.label=max CD
+maxCDChB.icon=
+maxCDChB.shortcut=
+maxCDChB.actionCommand=maxCDChB
+maxCDChB.toolTip=
+
+encoderChB.label=Encoded by
+encoderChB.icon=
+encoderChB.shortcut=
+encoderChB.actionCommand=encoderChB
+encoderChB.toolTip=
+
+maxTrackChB.label=max Tracks
+maxTrackChB.icon=
+maxTrackChB.shortcut=
+maxTrackChB.actionCommand=maxTrackChB
+maxTrackChB.toolTip=
+
+lyricsChB.label=Lyrics
+lyricsChB.icon=
+lyricsChB.shortcut=
+lyricsChB.actionCommand=lyricsChB
+lyricsChB.toolTip=
+
+genreChB.label=Genre
+genreChB.icon=
+genreChB.shortcut=
+genreChB.actionCommand=genreChB
+genreChB.toolTip=
+
+**********
+* JLabel *
+**********
+toJL.label= to 
+toJL.icon=
+toJL.toolTip=
+
+*********
+* JList *
+*********
+listL.toolTip=
+
+**********
+* JPanel *
+**********
+processP.label=Process:
+processP.toolTip=
+
+fieldsP.label=Fields:
+fieldsP.toolTip=
+
+****************
+* JRadioButton *
+****************
+replaceAllRB.label=replace all
+replaceAllRB.icon=
+replaceAllRB.shortcut=
+replaceAllRB.actionCommand=replaceAllRB
+replaceAllRB.toolTip=
+
+replaceSelectedRB.label=only selected
+replaceSelectedRB.icon=
+replaceSelectedRB.shortcut=
+replaceSelectedRB.actionCommand=replaceSelectedRB
+replaceSelectedRB.toolTip=
+
+removeSpaceRB.label=remove ' '
+removeSpaceRB.icon=
+removeSpaceRB.shortcut=
+removeSpaceRB.actionCommand=removeSpaceRB
+removeSpaceRB.toolTip=
+
+firstUppercaseRB.label=make first letter uppercase
+firstUppercaseRB.icon=
+firstUppercaseRB.shortcut=
+firstUppercaseRB.actionCommand=firstUppercaseRB
+firstUppercaseRB.toolTip=
+
+allUppercaseRB.label=make all uppercase
+allUppercaseRB.icon=
+allUppercaseRB.shortcut=
+allUppercaseRB.actionCommand=allUppercaseRB
+allUppercaseRB.toolTip=
+
+spaceToUnderscoreRB.label=' ' to '_'
+spaceToUnderscoreRB.icon=
+spaceToUnderscoreRB.shortcut=
+spaceToUnderscoreRB.actionCommand=spaceToUnderscoreRB
+spaceToUnderscoreRB.toolTip=
+
+convertRB.label=convert 
+convertRB.icon=
+convertRB.shortcut=
+convertRB.actionCommand=convertRB
+convertRB.toolTip=
+
+underscoreToSpaceRB.label='_' to ' '
+underscoreToSpaceRB.icon=
+underscoreToSpaceRB.shortcut=
+underscoreToSpaceRB.actionCommand=underscoreToSpaceRB
+underscoreToSpaceRB.toolTip=
+
+allLowercaseRB.label=make all lowercase
+allLowercaseRB.icon=
+allLowercaseRB.shortcut=
+allLowercaseRB.actionCommand=allLowercaseRB
+allLowercaseRB.toolTip=
+
+***************
+* JScrollPane *
+***************
+scrollPane.toolTip=
+
+**************
+* JTextField *
+**************
+convertToTF.toolTip=
+
+convertFromTF.toolTip=
+

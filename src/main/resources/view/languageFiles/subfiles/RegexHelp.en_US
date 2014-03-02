@@ -1,0 +1,25 @@
+<html>
+use the following abbreviations: <br />
+<b>%t</b> - Title<br />
+<b>%a</b> - Artist<br />
+<b>%b</b> - Album Artist<br />
+<b>%z</b> - Album<br />
+<b>%y</b> - Year<br />
+<b>%n</b> - Track#<br />
+<b>%l</b> - max Tracks<br />
+<b>%c</b> - CD#<br />
+<b>%x</b> - max CDs<br />
+<b>%g</b> - Genre<br />
+<b>%q</b> - Comment<br />
+<b>%p</b> - Publisher<br />
+<b>%s</b> - Composer<br />
+<b>%o</b> - Original Artist<br />
+<b>%r</b> - Copyright<br />
+<b>%u</b> - URL<br />
+<b>%e</b> - Encoded by<br /><br />
+
+e.g. the filename is "An Artist-10-A cool song" and the regex is %a-%n-%t then the %a 
+would be "An Artist", the %n would be "10" and the %t would be "A cool song". <br /><br />
+
+For more examples take a look in the documentation.
+</html>

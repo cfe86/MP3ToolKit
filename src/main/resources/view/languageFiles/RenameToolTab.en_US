@@ -1,0 +1,191 @@
+************
+* messages *
+************
+window=Rename Tool
+
+FolderNotFound=The given Folder doesn't exist.
+srcRegexEmpty=The Source Regex is empty
+targetRegexEmpty=The Target Regex is empty
+notAllAnalyzed=Not all files are analyzed. Please analyze all files first
+done=Files successfully renamed!
+
+help.labelJar=view/languageFiles/subfiles/RenameHelp.en_US
+
+Col1=Name
+Col2=new Name
+
+***********
+* JButton *
+***********
+addFileB.label=
+addFileB.icon=view/images/general/addFile.png
+addFileB.shortcut=
+addFileB.actionCommand=addFileB
+addFileB.toolTip=Adds a file to the list.
+
+deleteAllB.label=
+deleteAllB.icon=view/images/general/deleteAll.png
+deleteAllB.shortcut=
+deleteAllB.actionCommand=deleteAllB
+deleteAllB.toolTip=Deletes all loaded files from the list.
+
+deleteFileB.label=
+deleteFileB.icon=view/images/general/deleteFile.png
+deleteFileB.shortcut=
+deleteFileB.actionCommand=deleteFileB
+deleteFileB.toolTip=Deletes the selected files from the list.
+
+addFolderB.label=
+addFolderB.icon=view/images/general/addFolder.png
+addFolderB.shortcut=
+addFolderB.actionCommand=addFolderB
+addFolderB.toolTip=Adds a all files from a folder to the list.
+
+renameFilesB.label=
+renameFilesB.icon=view/images/general/start.png
+renameFilesB.shortcut=
+renameFilesB.actionCommand=renameFilesB
+renameFilesB.toolTip=Renames all the files to the new name. This will override the old filenames.
+
+folderOpenB.label=
+folderOpenB.icon=view/images/general/openFile.png
+folderOpenB.shortcut=
+folderOpenB.actionCommand=folderOpenB
+folderOpenB.toolTip=
+
+showChangesB.label=
+showChangesB.icon=view/images/general/analyse.png
+showChangesB.shortcut=
+showChangesB.actionCommand=showChangesB
+showChangesB.toolTip=Analyzes the files and shows the changes which would be made.
+
+*************
+* JCheckBox *
+*************
+replaceUnderscoreChB.label=replace underscore with space
+replaceUnderscoreChB.icon=
+replaceUnderscoreChB.shortcut=
+replaceUnderscoreChB.actionCommand=replaceUnderscoreChB
+replaceUnderscoreChB.toolTip=Replaces all underscores with spaces in the filename.
+
+trimChB.label=trim filename
+trimChB.icon=
+trimChB.shortcut=
+trimChB.actionCommand=trimChB
+trimChB.toolTip=Trims the filename, which means it deletes all spaces which are on the left and right site of the filename.
+
+replaceSpaceChB.label=replace space with underscore
+replaceSpaceChB.icon=
+replaceSpaceChB.shortcut=
+replaceSpaceChB.actionCommand=replaceSpaceChB
+replaceSpaceChB.toolTip=Replaces all spaces with underscores in the filename.
+
+recursiveChB.label=recursive
+recursiveChB.icon=
+recursiveChB.shortcut=
+recursiveChB.actionCommand=recursiveChB
+recursiveChB.toolTip=If checked subfolders will be scanned too.
+
+replaceChB.label=replace
+replaceChB.icon=
+replaceChB.shortcut=
+replaceChB.actionCommand=replaceChB
+replaceChB.toolTip=
+
+**********
+* JLabel *
+**********
+sourceJL.label=Source:
+sourceJL.icon=
+sourceJL.toolTip=
+
+targetJL.label=Target:
+targetJL.icon=
+targetJL.toolTip=
+
+folderJL.label=Folder:
+folderJL.icon=
+folderJL.toolTip=
+
+extensionJL.label=extension in ...
+extensionJL.icon=
+extensionJL.toolTip=
+
+withJL.label=with
+withJL.icon=
+withJL.toolTip=
+
+**********
+* JPanel *
+**********
+getInfoP.label=Get Information from:
+getInfoP.toolTip=
+
+folderP.label=Folder:
+folderP.toolTip=
+
+helpIP.toolTipJar=view/languageFiles/subfiles/RenameHelp.en_US
+
+filesP.label=Files:
+filesP.toolTip=
+
+miscP.label=Misc:
+miscP.toolTip=
+
+
+*************
+* JComboBox *
+*************
+sourceCB.shortcut=
+sourceCB.actionCommand=sourceCB
+sourceCB.toolTip=The expression which should be used to on the filename.
+
+targetCB.shortcut=
+targetCB.actionCommand=targetCB
+targetCB.toolTip=The expression which should be used to create the new filename.
+
+
+****************
+* JRadioButton *
+****************
+lowerCaseChB.label=lower case
+lowerCaseChB.icon=
+lowerCaseChB.shortcut=
+lowerCaseChB.actionCommand=lowerCaseChB
+lowerCaseChB.toolTip=Converts the extension to lowercase.
+
+upperCaseChB.label=upper case
+upperCaseChB.icon=
+upperCaseChB.shortcut=
+upperCaseChB.actionCommand=upperCaseChB
+upperCaseChB.toolTip=Converts the extension to uppercase.
+
+unchangedChB.label=unchanged
+unchangedChB.icon=
+unchangedChB.shortcut=
+unchangedChB.actionCommand=unchangedChB
+unchangedChB.toolTip=Leaves the extension as it is.
+
+filenameRB.label=Filename
+filenameRB.icon=
+filenameRB.shortcut=
+filenameRB.actionCommand=filenameRB
+filenameRB.toolTip=The neccessary information will be taken from the filename depending on the given regex expression.
+
+id3tagRB.label=ID3Tag
+id3tagRB.icon=
+id3tagRB.shortcut=
+id3tagRB.actionCommand=id3tagRB
+id3tagRB.toolTip=The neccessary information will be taken from the ID3 tag depending on the given regex expression.
+
+**********
+* JTable *
+**********
+foundT.toolTip=
+
+**************
+* JTextField *
+**************
+replaceWithTF.toolTip=Replaces this string in the filename with the given replacement.
+
+replaceTF.toolTip=The given replacement.

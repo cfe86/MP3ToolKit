@@ -1,0 +1,229 @@
+window=Preferences
+
+oneCollectorNeeded=At least one Collector needs to be available.
+WriteMasksError=Error while writing mask file.
+ReadMasksError=Error while reading mask file.
+
+***********
+* JButton *
+***********
+openPlayerB.label=
+openPlayerB.icon=view/images/general/openFile.png
+openPlayerB.shortcut=
+openPlayerB.actionCommand=openPlayerB
+openPlayerB.toolTip=
+
+id3dataUpB.label=
+id3dataUpB.icon=view/images/general/arrowUpList.png
+id3dataUpB.shortcut=
+id3dataUpB.actionCommand=id3dataUpB
+id3dataUpB.toolTip=Moves the selected id3 data collector one step up.
+
+id3dataDownB.label=
+id3dataDownB.icon=view/images/general/arrowDownList.png
+id3dataDownB.shortcut=
+id3dataDownB.actionCommand=id3dataDownB
+id3dataDownB.toolTip=Moves the selected id3 data collector one step down.
+
+id3dataEnableB.label=dis/enable
+id3dataEnableB.icon=
+id3dataEnableB.shortcut=
+id3dataEnableB.actionCommand=id3dataEnableB
+id3dataEnableB.toolTip=enables or disables the selected id3 data collector.
+
+lyricsUpB.label=
+lyricsUpB.icon=view/images/general/arrowUpList.png
+lyricsUpB.shortcut=
+lyricsUpB.actionCommand=lyricsUpB
+lyricsUpB.toolTip=Moves the selected lyrics collector one step up.
+
+lyricsDownB.label=
+lyricsDownB.icon=view/images/general/arrowDownList.png
+lyricsDownB.shortcut=
+lyricsDownB.actionCommand=lyricsDownB
+lyricsDownB.toolTip=Moves the selected lyrics collector one step down.
+
+lyricsEnableB.label=dis/enable
+lyricsEnableB.icon=
+lyricsEnableB.shortcut=
+lyricsEnableB.actionCommand=lyricsEnableB
+lyricsEnableB.toolTip=enables or disables the selected lyrics collector.
+
+coverUpB.label=
+coverUpB.icon=view/images/general/arrowUpList.png
+coverUpB.shortcut=
+coverUpB.actionCommand=coverUpB
+coverUpB.toolTip=Moves the selected cover collector one step up.
+
+coverDownB.label=
+coverDownB.icon=view/images/general/arrowDownList.png
+coverDownB.shortcut=
+coverDownB.actionCommand=coverDownB
+coverDownB.toolTip=Moves the selected cover collector one step down.
+
+coverEnableB.label=dis/enable
+coverEnableB.icon=
+coverEnableB.shortcut=
+coverEnableB.actionCommand=coverEnableB
+coverEnableB.toolTip=enables or disables the selected cover collector.
+
+addMaskB.label=add
+addMaskB.icon=
+addMaskB.shortcut=
+addMaskB.actionCommand=addMaskB
+addMaskB.toolTip=
+
+deleteMaskB.label=delete
+deleteMaskB.icon=
+deleteMaskB.shortcut=
+deleteMaskB.actionCommand=deleteMaskB
+deleteMaskB.toolTip=
+
+cancelB.label=
+cancelB.icon=view/images/id3tag/subwindows/close.png
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+okB.label=
+okB.icon=view/images/id3tag/subwindows/ok.png
+okB.shortcut=
+okB.actionCommand=okB
+okB.toolTip=
+
+
+**********
+* JLabel *
+**********
+maskJL.label=Mask:
+maskJL.icon=
+maskJL.toolTip=
+
+
+**************
+* JTextField *
+**************
+playerCmdTF.toolTip=
+
+maxImageLengthTF.toolTip=
+
+maskTF.toolTip=
+
+
+****************
+* JRadioButton *
+****************
+defaultPlayerRB.label=default player
+defaultPlayerRB.icon=
+defaultPlayerRB.shortcut=
+defaultPlayerRB.actionCommand=defaultPlayerRB
+defaultPlayerRB.toolTip=Uses the default player to play an audio file.
+
+customPlayerRB.label=player to run:
+customPlayerRB.icon=
+customPlayerRB.shortcut=
+customPlayerRB.actionCommand=customPlayerRB
+customPlayerRB.toolTip=Uses the given player command to start the custom player to play an audio file.
+
+
+*************
+* JCheckBox *
+*************
+maxImageLengthChB.label=max image length:
+maxImageLengthChB.icon=
+maxImageLengthChB.shortcut=
+maxImageLengthChB.actionCommand=maxImageLengthChB
+maxImageLengthChB.toolTip=The maximal length of a cover image. If the image found using the cover collector is bigger than this size it will be downscaled.
+
+deleteId3v1TagChB.label=delete ID3v1 Tag
+deleteId3v1TagChB.icon=
+deleteId3v1TagChB.shortcut=
+deleteId3v1TagChB.actionCommand=deleteId3v1TagChB
+deleteId3v1TagChB.toolTip=If checked and if the audio file has an ID3v1 tag it will be deleted.
+
+setId3v1TagChB.label=additionally set ID3v1 Tag
+setId3v1TagChB.icon=
+setId3v1TagChB.shortcut=
+setId3v1TagChB.actionCommand=setId3v1TagChB
+setId3v1TagChB.toolTip=If checked additionally to the ID3v2 Tag an ID3v1 tag will be written too to support older devices and applications.
+
+writeTagsChB.label=before writing new tags to file
+writeTagsChB.icon=
+writeTagsChB.shortcut=
+writeTagsChB.actionCommand=writeTagsChB
+writeTagsChB.toolTip=Show a confirmation dialog before writing tags.
+
+changeGainChB.label=before changing gain
+changeGainChB.icon=
+changeGainChB.shortcut=
+changeGainChB.actionCommand=changeGainChB
+changeGainChB.toolTip=Show a confirmation dialog before changing gain.
+
+renameFilesChB.label=before renaming files
+renameFilesChB.icon=
+renameFilesChB.shortcut=
+renameFilesChB.actionCommand=renameFilesChB
+renameFilesChB.toolTip=Show a confirmation dialog before renaming files.
+
+generateFolderChB.label=before folder generation
+generateFolderChB.icon=
+generateFolderChB.shortcut=
+generateFolderChB.actionCommand=generateFolderChB
+generateFolderChB.toolTip=Show a confirmation dialog before generating folders.
+
+
+*********
+* JList *
+*********
+trackListL.toolTip=
+
+albumListL.toolTip=
+
+lyricsListL.toolTip=
+
+masksL.toolTip=
+
+
+**********
+* JPanel *
+**********
+tagP.label=Cover Art:
+tagP.toolTip=
+
+audioPlayerP.label=Used Audio Player:
+audioPlayerP.toolTip=
+
+id3TagsP.label=ID3 Tag:
+id3TagsP.toolTip=
+
+confirmMsgP.label=Confirmation message:
+confirmMsgP.toolTip=
+
+id3dataCollectorsP.label=ID3Data Collectors:
+id3dataCollectorsP.toolTip=
+
+coverCollectorsP.label=CoverArt Collectors:
+coverCollectorsP.toolTip=
+
+lyricsCollectorsP.label=Lyrics Collectors:
+lyricsCollectorsP.toolTip=
+
+masksP.label=Masks:
+masksP.toolTip=
+
+miscP.toolTip=
+
+collectorsP.toolTip=
+
+***************
+* JTabbedPane *
+***************
+tabP.toolTip=
+
+
+********
+* Tabs *
+********
+miscTab=Misc
+collectorsTab=Collectors
+masksTab=Masks

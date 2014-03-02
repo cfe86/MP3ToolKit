@@ -1,0 +1,130 @@
+window=Licenses
+
+# licenses
+## path: licenses/GPL.txt
+GPL=https://www.gnu.org/copyleft/gpl.html
+## path: licenses/CreativeCommons.txt
+CreativeCommons=http://creativecommons.org/licenses/by/4.0/legalcode
+## path: no license
+Freeware=-
+## path:licenses/LGPL.txt
+LGPL=http://www.gnu.org/licenses/lgpl-3.0.txt
+
+
+
+# this software
+thisSoftwareAuthor=Christian Feier <ChristianFeier@gmx.de>
+thisSoftwareProject=<html>MP3 Tool Kit <a href="{0}">(link)</a></html>
+thisSoftwareProjectURL=https://github.com/cf86/MP3ToolKit
+# only use an identifier which is defined under #licenses
+thisSoftwareLicense=GPL
+thisSoftwareLicensePath=licenses/license.txt
+
+# JTattoo
+jtattooAuthor=Michael Hagen
+jtattooProject=<html>JTattoo <a href="{0}">(link)</a></html>
+jtattooProjectURL=http://www.jtattoo.net/
+# only use an identifier which is defined under #licenses
+jtattooLicense=GPL
+jtattooLicensePath=licenses/GPL.txt
+
+# MigLayout
+miglayoutAuthor=MiG InfoCom
+miglayoutProject=<html>MigLayout <a href="{0}">(link)</a></html>
+miglayoutProjectURL=http://www.miglayout.com/
+# only use an identifier which is defined under #licenses
+miglayoutLicense=GPL
+miglayoutLicensePath=licenses/GPL.txt
+
+# mp3gain
+mp3gainAuthor=Glen Sawyer
+mp3gainProject=<html>http://mp3gain.sourceforge.net/ <a href="{0}">(link)</a></html>
+mp3gainProjectURL=http://mp3gain.sourceforge.net/
+# only use an identifier which is defined under #licenses
+mp3gainLicense=GPL
+mp3gainLicensePath=licenses/GPL.txt
+
+# JLayer
+jLayerAuthor=www.javazoom.net
+jLayerProject=<html>JLayer <a href="{0}">(link)</a></html>
+jLayerProjectURL=http://www.javazoom.net/index.shtml
+# only use an identifier which is defined under #licenses
+jLayerLicense=LGPL
+jLayerLicensePath=licenses/LGPL.txt
+
+# Human-O2 icons
+humano2Author=schollidesign
+humano2Project=<html>Human-O2 <a href="{0}">(link)</a></html>
+humano2ProjectURL=http://findicons.com/pack/1035/human_o2
+# only use an identifier which is defined under #licenses
+humano2License=GPL
+humano2LicensePath=licenses/GPL.txt
+
+// shimmer icons
+shimmerAuthor=gosquared.com
+shimmerProject=<html>Shimmer Icons <a href="{0}">(link)</a></html>
+shimmerProjectURL=http://findicons.com/pack/2758/flag_icons
+# only use an identifier which is defined under #licenses
+shimmerLicense=Freeware
+shimmerLicensePath=licenses/Freeware.txt
+
+// oxygen icons
+oxygenAuthor=deviantdark
+oxygenProject=<html>Oxygen-Refit Icons <a href="{0}">(link)</a></html>
+oxygenProjectURL=http://findicons.com/pack/1786/oxygen_refit
+# only use an identifier which is defined under #licenses
+oxygenLicense=Freeware
+oxygenLicensePath=licenses/Freeware.txt
+
+// VisualPharm
+visualpharmAuthor=visualpharm
+visualpharmProject=<html>must have icons <a href="{0}">(link)</a></html>
+visualpharmProjectURL=http://www.iconarchive.com/show/must-have-icons-by-visualpharm.html
+# only use an identifier which is defined under #licenses
+visualpharmLicense=Freeware
+visualpharmLicensePath=licenses/Freeware.txt
+
+// VISTAICO TOOLBAR
+vistaicoAuthor=VistaICO
+vistaicoProject=<html>VISTAICO TOOLBAR <a href="{0}">(link)</a></html>
+vistaicoProjectURL=http://findicons.com/pack/990/vistaico_toolbar
+# only use an identifier which is defined under #licenses
+vistaicoLicense=Freeware
+vistaicoLicensePath=licenses/Freeware.txt
+
+// Fatcow Web Hosting
+fatcowAuthor=Fatcow Web Hosting
+fatcowProject=<html>Farm Fresh Icons <a href="{0}">(link)</a></html>
+fatcowProjectURL=http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow.html
+# only use an identifier which is defined under #licenses
+fatcowLicense=CreativeCommons
+fatcowLicensePath=licenses/CreativeCommons.txt
+
+# Flag Icons
+flagiconsAuthor=Adam Parrish
+flagiconsProject=<html>Shimmer <a href="{0}">(link)</a></html>
+flagiconsProjectURL=http://findicons.com/pack/2712/shimmer
+# only use an identifier which is defined under #licenses
+flagiconsLicense=Freeware
+flagiconsLicensePath=licenses/Freeware.txt
+
+***************
+* JTabbedPane *
+***************
+tabP.toolTip=
+
+********
+* Tabs *
+********
+softwareTab=MP3 Tool Kit
+mp3gainTab=Mp3Gain
+jtattooTab=JTattoo
+miglayoutTab=Mig Layout
+jlayerTab=JLayer
+humano2Tab=Human-O2 Icons
+shimmerTab=Shimmer Icons
+oxygenTab=Oxygen-Refit Icons
+visualPharmTab=Must have Icons
+vistaicoTab=Vistaico Toobar Icons
+fatcowTab=Farm Fresh Icons
+flagiconsTab=Flag Icons

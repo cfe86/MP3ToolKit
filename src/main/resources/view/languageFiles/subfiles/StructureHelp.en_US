@@ -1,0 +1,25 @@
+<html>
+use the following abbreviations: <br />
+<b>%t</b> - Title<br />
+<b>%a</b> - Artist<br />
+<b>%b</b> - Album Artist<br />
+<b>%z</b> - Album<br />
+<b>%y</b> - Year<br />
+<b>%n</b> - Track#<br />
+<b>%l</b> - max Tracks<br />
+<b>%c</b> - CD#<br />
+<b>%x</b> - max CDs<br />
+<b>%g</b> - Genre<br />
+<b>%q</b> - Comment<br />
+<b>%p</b> - Publisher<br />
+<b>%s</b> - Composer<br />
+<b>%o</b> - Original Artist<br />
+<b>%r</b> - Copyright<br />
+<b>%u</b> - URL<br />
+<b>%e</b> - Encoded by<br /><br />
+
+use / to move one directory and [%abbreviation] if the folder should be only created if the needed data exists.<br /><br />
+e.g. the structure regex is %a / %z / [%y] then the folder structure would be Artist/Album/Year/file.ext only if year is available, if year isn't available the structure would only be Artist/Album/file.ext. <br /><br />
+
+For more examples take a look in the documentation.
+</html>

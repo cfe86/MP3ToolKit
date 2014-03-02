@@ -1,0 +1,60 @@
+window=ID3Tag Generator
+
+openError=Error while opening the window.
+noMaskFile=Couldn't find masks file
+regexEmpty=The Regex String is empty.
+
+***********
+* JButton *
+***********
+startB.label=
+startB.icon=view/images/id3tag/subwindows/ok.png
+startB.shortcut=
+startB.actionCommand=startB
+startB.toolTip=
+
+cancelB.label=
+cancelB.icon=view/images/id3tag/subwindows/close.png
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+**************
+* ImagePanel *
+**************
+helpIP.toolTip=
+
+*************
+* JComboBox *
+*************
+regexCB.shortcut=
+regexCB.actionCommand=regexCB
+regexCB.toolTip=
+
+**********
+* JLabel *
+**********
+regexJL.label=Regex:
+regexJL.icon=
+regexJL.toolTip=
+
+**********
+* JPanel *
+**********
+panelP.label=Filename Regex:
+panelP.toolTip=
+
+****************
+* JRadioButton *
+****************
+replaceAllRB.label=generate all
+replaceAllRB.icon=
+replaceAllRB.shortcut=
+replaceAllRB.actionCommand=replaceAllRB
+replaceAllRB.toolTip=
+
+replaceSelectedRB.label=only selected
+replaceSelectedRB.icon=
+replaceSelectedRB.shortcut=
+replaceSelectedRB.actionCommand=replaceSelectedRB
+replaceSelectedRB.toolTip=

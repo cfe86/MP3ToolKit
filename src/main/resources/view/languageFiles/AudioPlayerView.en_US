@@ -1,0 +1,57 @@
+window=Audio Player
+
+ErrorStop=Error while stopping AudioPlayer.
+ErrorPause=Error while pausing AudioPlayer.
+ErrorPlay=Error while starting audio file.
+ErrorSwitchTime=Error while changing the current play time.
+
+***********
+* JButton *
+***********
+startB.label=
+startB.icon=view/images/id3tag/subwindows/startAudio.png
+startB.shortcut=
+startB.actionCommand=startB
+startB.toolTip=
+
+stopB.label=
+stopB.icon=view/images/id3tag/subwindows/stopAudio.png
+stopB.shortcut=
+stopB.actionCommand=stopB
+stopB.toolTip=
+
+pauseB.label=
+pauseB.icon=view/images/id3tag/subwindows/pauseAudio.png
+pauseB.shortcut=
+pauseB.actionCommand=pauseB
+pauseB.toolTip=
+
+
+**********
+* JLabel *
+**********
+nameJL.label=Name:
+nameJL.icon=
+nameJL.toolTip=
+
+nameTextJL.label=
+nameTextJL.icon=
+nameTextJL.toolTip=
+
+timeJL.label=Time:
+timeJL.icon=
+timeJL.toolTip=
+
+currTimeJL.label=-
+currTimeJL.icon=
+currTimeJL.toolTip=
+
+maxTimeJL.label=-
+maxTimeJL.icon=
+maxTimeJL.toolTip=
+
+
+***********
+* JSlider *
+***********
+sliderJS.toolTip=

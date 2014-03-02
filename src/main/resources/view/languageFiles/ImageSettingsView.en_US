@@ -1,0 +1,49 @@
+window=Image Settings
+
+***********
+* JButton *
+***********
+okB.label=
+okB.icon=view/images/id3tag/subwindows/okSmall.png
+okB.shortcut=
+okB.actionCommand=okB
+okB.toolTip=
+
+linkB.label=
+linkB.icon=view/images/id3tag/subwindows/link.png
+linkB.shortcut=
+linkB.actionCommand=linkB
+linkB.toolTip=
+
+cancelB.label=
+cancelB.icon=view/images/id3tag/subwindows/closeSmall.png
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+**********
+* JPanel *
+**********
+optionP.label=Options:
+optionP.toolTip=
+
+****************
+* JRadioButton *
+****************
+resizeRB.label=resize Image
+resizeRB.icon=
+resizeRB.shortcut=
+resizeRB.actionCommand=resizeRB
+resizeRB.toolTip=
+
+deleteRB.label=delete Image
+deleteRB.icon=
+deleteRB.shortcut=
+deleteRB.actionCommand=deleteRB
+deleteRB.toolTip=
+
+**************
+* JTextField *
+**************
+heightTF.toolTip=
+widthTF.toolTip=

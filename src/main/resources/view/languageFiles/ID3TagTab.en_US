@@ -1,0 +1,572 @@
+window=ID3Tag Editor
+
+AudioFileParseError=Error while parsing the audio file!
+FolderNotFound=The given Source Folder doesn't exist.
+FileNotFound=File not Found!
+FileNotFoundWritable=One file can't be found or is already opened by another program e.g. the media player and can't be written.
+AudioFileImageLoadError=Error while loading MP3 Album Art
+noID3TagImage=There is no MP3 Image to save.
+noLyrics=There are no Lyrics available for this MP3.
+noFilesSelected=No MP3s are selected.
+noFilesChanged=No MP3s got changed.
+rescaleError=Error while rescaling the image.
+lyricsError=Error while connecting to server. Please try again later.
+confirmWrite=You are going to override your current ID3Tags, are you sure?
+AudioPlayerError=There was an error while opening the player.
+ID3TagEmpty=This audio file has no ID3Tag. You could try to fill it using "generate by name" or just fill it manually.
+deleteError=Couldn't delete '{0}', maybe it is write protected or used by another program?
+deleteFilesConfirm=Are you sure you want to delete this files? This can not be undone.
+
+
+Col1=Changed
+Col2=Filename
+Col3=Path
+Col4=Title
+Col5=Artist
+Col6=Album Artist
+Col7=Album
+Col8=Year
+Col9=Track
+Col10=CD
+Col11=Genre
+Col12=Comment
+Col13=Composer
+Col14=orig. Artist
+Col15=Copyright
+Col16=URL
+Col17=Encoded by
+
+***********
+* JButton *
+***********
+undoB.label=
+undoB.icon=view/images/id3tag/undo.png
+undoB.shortcut=
+undoB.actionCommand=undoB
+undoB.toolTip=Undos the made changes to all selected audio files be reloading them.
+
+deleteFileB.label=
+deleteFileB.icon=view/images/general/deleteFile.png
+deleteFileB.shortcut=
+deleteFileB.actionCommand=deleteFileB
+deleteFileB.toolTip=Deletes the selected files from the list.
+
+saveTagsB.label=
+saveTagsB.icon=view/images/general/start.png
+saveTagsB.shortcut=
+saveTagsB.actionCommand=saveTagsB
+saveTagsB.toolTip=Saves the made ID3Tag changes to the selected or all files.
+
+addFileB.label=
+addFileB.icon=view/images/general/addFile.png
+addFileB.shortcut=
+addFileB.actionCommand=addFileB
+addFileB.toolTip=Adds a file to the list.
+
+fieldReplacerB.label=
+fieldReplacerB.icon=view/images/id3tag/FieldReplacer.png
+fieldReplacerB.shortcut=
+fieldReplacerB.actionCommand=fieldReplacerB
+fieldReplacerB.toolTip=Starts the field replacer. Using the field replacer changes can be made to specific ID3 tag fields.
+
+searchOnlineB.label=
+searchOnlineB.icon=view/images/id3tag/searchOnline.png
+searchOnlineB.shortcut=
+searchOnlineB.actionCommand=searchOnlineB
+searchOnlineB.toolTip=Searches online using the enabled Collectors for the ID3 Tags and makes a suggestion for all selected files.
+
+addFolderB.label=
+addFolderB.icon=view/images/general/addFolder.png
+addFolderB.shortcut=
+addFolderB.actionCommand=addFolderB
+addFolderB.toolTip=Adds a all files from a folder to the list.
+
+generateByNameB.label=
+generateByNameB.icon=view/images/id3tag/generateByName.png
+generateByNameB.shortcut=
+generateByNameB.actionCommand=generateByNameB
+generateByNameB.toolTip=Starts the tag generater. Using the tag generator ID3 tags can be set using the filename and a specified regex.
+
+ImageSettingsB.label=
+ImageSettingsB.icon=view/images/id3tag/imageSettings.png
+ImageSettingsB.shortcut=
+ImageSettingsB.actionCommand=ImageSettingsB
+ImageSettingsB.toolTip=Opens the image settings menu to delete the image or resize it.
+
+addImageB.label=
+addImageB.icon=view/images/id3tag/load.png
+addImageB.shortcut=
+addImageB.actionCommand=addImageB
+addImageB.toolTip=Loads an image from the harddrive. This image will replace the current one.
+
+rootOpenB.label=
+rootOpenB.icon=view/images/general/openFile.png
+rootOpenB.shortcut=
+rootOpenB.actionCommand=rootOpenB
+rootOpenB.toolTip=
+
+deleteTagB.label=
+deleteTagB.icon=view/images/id3tag/delete.png
+deleteTagB.shortcut=
+deleteTagB.actionCommand=deleteTagB
+deleteTagB.toolTip=Deletes the ID3 tag of the selected files.
+
+deleteAllB.label=
+deleteAllB.icon=view/images/general/deleteAll.png
+deleteAllB.shortcut=
+deleteAllB.actionCommand=deleteAllB
+deleteAllB.toolTip=Deletes all loaded files from the list.
+
+loadB.label=
+loadB.icon=view/images/id3tag/openFiles.png
+loadB.shortcut=
+loadB.actionCommand=loadB
+loadB.toolTip=Loads the the selected folder in the Tree menu. If recursive is checked subfolders will be loaded too.
+
+loadLyricsB.label=
+loadLyricsB.icon=view/images/id3tag/load.png
+loadLyricsB.shortcut=
+loadLyricsB.actionCommand=loadLyricsB
+loadLyricsB.toolTip=Loads a lyrics text file from the harddrive. This lyrics will replace the current one. 
+
+saveLyricsB.label=
+saveLyricsB.icon=view/images/id3tag/save.png
+saveLyricsB.shortcut=
+saveLyricsB.actionCommand=saveLyricsB
+saveLyricsB.toolTip=Saves the current lyrics to a file on the harddrive.
+
+saveImageB.label=
+saveImageB.icon=view/images/id3tag/save.png
+saveImageB.shortcut=
+saveImageB.actionCommand=saveImageB
+saveImageB.toolTip=Saves the current image to a file on the harddrive.
+
+deleteLyricsB.label=
+deleteLyricsB.icon=view/images/id3tag/delete.png
+deleteLyricsB.shortcut=
+deleteLyricsB.actionCommand=deleteLyricsB
+deleteLyricsB.toolTip=Deletes the current lyrics.
+
+searchLyricsB.label=
+searchLyricsB.icon=view/images/id3tag/searchLyrics.png
+searchLyricsB.shortcut=
+searchLyricsB.actionCommand=searchLyricsB
+searchLyricsB.toolTip=Searches online using the enabled Collectors for the lyrics and makes a suggestion for all selected files.
+
+searchImageB.label=
+searchImageB.icon=view/images/id3tag/searchImage.png
+searchImageB.shortcut=
+searchImageB.actionCommand=searchImageB
+searchImageB.toolTip=Searches online using the enabled Collectors for the album cover and makes a suggestion for all selected files.
+
+playAudioB.label=
+playAudioB.icon=view/images/id3tag/subwindows/startAudio.png
+playAudioB.shortcut=
+playAudioB.actionCommand=playAudioB
+playAudioB.toolTip=Starts the default or custom audio player to play the selected files. If more than one file is selcted the first one will be played.
+
+deleteFileHDDB.label=
+deleteFileHDDB.icon=view/images/id3tag/deleteFile.png
+deleteFileHDDB.shortcut=
+deleteFileHDDB.actionCommand=deleteFileHDDB
+deleteFileHDDB.toolTip=Deletes the selected files from the harddrive.
+
+*************
+* JCheckBox *
+*************
+autoAddChB.label=auto add
+autoAddChB.icon=
+autoAddChB.shortcut=
+autoAddChB.actionCommand=autoAddChB
+autoAddChB.toolTip=If selected a folder from the tree menu will be loaded directly when it got selected (same as when you click the load button).
+
+recursiveChB.label=recursive
+recursiveChB.icon=
+recursiveChB.shortcut=
+recursiveChB.actionCommand=recursiveChB
+recursiveChB.toolTip=If checked subfolders will be scanned too.
+
+*************
+* JComboBox *
+*************
+genreCB.shortcut=
+genreCB.actionCommand=genreCB
+genreCB.toolTip=
+
+trackCB.shortcut=
+trackCB.actionCommand=trackCB
+trackCB.toolTip=
+
+cdCB.shortcut=
+cdCB.actionCommand=cdCB
+cdCB.toolTip=
+
+**********
+* JLabel *
+**********
+publisherJL.label=Publisher:    
+publisherJL.icon=
+publisherJL.toolTip=
+
+currExtJL.label=         
+currExtJL.icon=
+currExtJL.toolTip=
+
+extJL.label=Extension:
+extJL.icon=
+extJL.toolTip=
+
+lyricsJL.label=Lyrics:
+lyricsJL.icon=
+lyricsJL.toolTip=
+
+cdJL.label=CD:
+cdJL.icon=
+cdJL.toolTip=
+
+mp3NameJL.label=name:
+mp3NameJL.icon=
+mp3NameJL.toolTip=
+
+mp3CurrentNameJL.label=
+mp3CurrentNameJL.icon=
+mp3CurrentNameJL.toolTip=
+
+frequenceJL.label=Frequence:
+frequenceJL.icon=
+frequenceJL.toolTip=
+
+layerJL.label=MPEG ? Layer ?
+layerJL.icon=
+layerJL.toolTip=
+
+currDimension.label=
+currDimension.icon=
+currDimension.toolTip=
+
+commentJL.label=Comment:
+commentJL.icon=
+commentJL.toolTip=
+
+lengthJL.label=Length:
+lengthJL.icon=
+lengthJL.toolTip=
+
+urlJL.label=URL:
+urlJL.icon=
+urlJL.toolTip=
+
+dimensionJL.label=dimension:
+dimensionJL.icon=
+dimensionJL.toolTip=
+
+currBitrateJL.label=
+currBitrateJL.icon=
+currBitrateJL.toolTip=
+
+composerJL.label=Composer:
+composerJL.icon=
+composerJL.toolTip=
+
+genreJL.label=Genre:
+genreJL.icon=
+genreJL.toolTip=
+
+copyrightJL.label=Copyright:
+copyrightJL.icon=
+copyrightJL.toolTip=
+
+albumArtistJL.label=Album Artist:
+albumArtistJL.icon=
+albumArtistJL.toolTip=
+
+rootJL.label=root:
+rootJL.icon=
+rootJL.toolTip=
+
+origArtistJL.label=Orig. Artist:
+origArtistJL.icon=
+origArtistJL.toolTip=
+
+modeJL.label=Mode:
+modeJL.icon=
+modeJL.toolTip=
+
+currModeJL.label=
+currModeJL.icon=
+currModeJL.toolTip=
+
+currLengthJL.label=
+currLengthJL.icon=
+currLengthJL.toolTip=
+
+titleJL.label=Title:
+titleJL.icon=
+titleJL.toolTip=
+
+albumJL.label=Album:
+albumJL.icon=
+albumJL.toolTip=
+
+currSizeJL.label=
+currSizeJL.icon=
+currSizeJL.toolTip=
+
+imageJL.label=image:
+imageJL.icon=
+imageJL.toolTip=
+
+sizeJL.label=Size:
+sizeJL.icon=
+sizeJL.toolTip=
+
+artistJL.label=Artist:
+artistJL.icon=
+artistJL.toolTip=
+
+encodedByJL.label=Encoded by:
+encodedByJL.icon=
+encodedByJL.toolTip=
+
+trackJL.label=Track#:
+trackJL.icon=
+trackJL.toolTip=
+
+currFrequenceJL.label=
+currFrequenceJL.icon=
+currFrequenceJL.toolTip=
+
+bitrateJL.label=Bitrate:
+bitrateJL.icon=
+bitrateJL.toolTip=
+
+yearJL.label=Year:
+yearJL.icon=
+yearJL.toolTip=
+
+imageSizeJL.label=Size:
+imageSizeJL.icon=
+imageSizeJL.toolTip=
+
+currImageSizeJL.label=
+currImageSizeJL.icon=
+currImageSizeJL.toolTip=
+
+**********
+* JPanel *
+**********
+foldersP.label=Folders:
+foldersP.toolTip=
+
+id3TagOptP.label=ID3 Tag Options:
+id3TagOptP.toolTip=
+
+rootPanelP.label=Root:
+rootPanelP.toolTip=
+
+id3TagBorderP.label=ID3 Tag:
+id3TagBorderP.toolTip=
+
+mp3dataP.label=Audio Data:
+mp3dataP.toolTip=
+
+fileOptP.label=File Options:
+fileOptP.toolTip=
+
+tableP.label=Files:
+tableP.toolTip=
+
+imageIP.toolTip=
+
+****************
+* JRadioButton *
+****************
+saveSelectedRB.label=only selected
+saveSelectedRB.icon=
+saveSelectedRB.shortcut=
+saveSelectedRB.actionCommand=onlySelectedRB
+saveSelectedRB.toolTip=The tag changes will only be applied to the selected files.
+
+saveAllChangeRB.label=all changed
+saveAllChangeRB.icon=
+saveAllChangeRB.shortcut=
+saveAllChangeRB.actionCommand=saveAllChangeRB
+saveAllChangeRB.toolTip=The tag changes will be applied to all files doesn't batter which files are selected.
+
+publisherRB.label=
+publisherRB.icon=
+publisherRB.shortcut=
+publisherRB.actionCommand=publisherRB
+publisherRB.toolTip=Sets this publisher to all other selected files too.
+
+maxCDRB.label=
+maxCDRB.icon=
+maxCDRB.shortcut=
+maxCDRB.actionCommand=maxCDRB
+maxCDRB.toolTip=Sets this max cd to all other selected files too.
+
+cdRB.label=
+cdRB.icon=
+cdRB.shortcut=
+cdRB.actionCommand=cdRB
+cdRB.toolTip=Sets this current cd to all other selected files too.
+
+urlRB.label=
+urlRB.icon=
+urlRB.shortcut=
+urlRB.actionCommand=urlRB
+urlRB.toolTip=Sets this URL to all other selected files too.
+
+maxTracksRB.label=
+maxTracksRB.icon=
+maxTracksRB.shortcut=
+maxTracksRB.actionCommand=maxTracksRB
+maxTracksRB.toolTip=Sets this max tracks to all other selected files too.
+
+copyrightRB.label=
+copyrightRB.icon=
+copyrightRB.shortcut=
+copyrightRB.actionCommand=copyrightRB
+copyrightRB.toolTip=Sets this copyright to all other selected files too.
+
+encodedByRB.label=
+encodedByRB.icon=
+encodedByRB.shortcut=
+encodedByRB.actionCommand=encodedByRB
+encodedByRB.toolTip=Sets this encoder to all other selected files too.
+
+composerRB.label=
+composerRB.icon=
+composerRB.shortcut=
+composerRB.actionCommand=composerRB
+composerRB.toolTip=Sets this composer to all other selected files too.
+
+commentRB.label=
+commentRB.icon=
+commentRB.shortcut=
+commentRB.actionCommand=commentRB
+commentRB.toolTip=Sets this comment to all other selected files too.
+
+albumRB.label=
+albumRB.icon=
+albumRB.shortcut=
+albumRB.actionCommand=albumRB
+albumRB.toolTip=Sets this album to all other selected files too.
+
+albumArtistRB.label=
+albumArtistRB.icon=
+albumArtistRB.shortcut=
+albumArtistRB.actionCommand=albumArtistRB
+albumArtistRB.toolTip=Sets this album artist to all other selected files too.
+
+genreRB.label=
+genreRB.icon=
+genreRB.shortcut=
+genreRB.actionCommand=genreRB
+genreRB.toolTip=Sets this genre to all other selected files too.
+
+titleRB.label=
+titleRB.icon=
+titleRB.shortcut=
+titleRB.actionCommand=titleRB
+titleRB.toolTip=Sets this title to all other selected files too.
+
+artistRB.label=
+artistRB.icon=
+artistRB.shortcut=
+artistRB.actionCommand=artistRB
+artistRB.toolTip=Sets this artist to all other selected files too.
+
+origArtistRB.label=
+origArtistRB.icon=
+origArtistRB.shortcut=
+origArtistRB.actionCommand=origArtistRB
+origArtistRB.toolTip=Sets this original artist to all other selected files too.
+
+imageAllRB.label=
+imageAllRB.icon=
+imageAllRB.shortcut=
+imageAllRB.actionCommand=imageAllRB
+imageAllRB.toolTip=Sets this image to all other selected files too.
+
+lyricsRB.label=
+lyricsRB.icon=
+lyricsRB.shortcut=
+lyricsRB.actionCommand=lyricsRB
+lyricsRB.toolTip=Sets this lyrics to all other selected files too.
+
+trackRB.label=
+trackRB.icon=
+trackRB.shortcut=
+trackRB.actionCommand=trackRB
+trackRB.toolTip=Sets this track number to all other selected files too.
+
+yearRB.label=
+yearRB.icon=
+yearRB.shortcut=
+yearRB.actionCommand=yearRB
+yearRB.toolTip=Sets this year to all other selected files too.
+
+***************
+* JTabbedPane *
+***************
+tabbedPane.toolTip=
+
+********
+* Tabs *
+********
+id3TagTab=ID3Tag
+lyricsTab=Lyrics
+ImageTab=Image
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+**************
+* JTextField *
+**************
+maxCDTF.toolTip=
+
+urlTF.toolTip=
+
+albumArtistTF.toolTip=
+
+maxTracksTF.toolTip=
+
+copyrightTF.toolTip=
+
+composerTF.toolTip=
+
+albumTF.toolTip=
+
+publisherTF.toolTip=
+
+commentTF.toolTip=
+
+yearTF.toolTip=
+
+titleTF.toolTip=
+
+rootTF.toolTip=The selected root folder for the tree menu.
+
+origArtistTF.toolTip=
+
+encodedByTF.toolTip=
+
+artistTF.toolTip=
+
+trackTF.toolTip=
+
+cdTF.toolTip=
+
+*********
+* JTree *
+*********
+filesTr.toolTip=
+
+*************
+* JTextArea *
+*************
+lyricsTA.toolTip=

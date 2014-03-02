@@ -1,0 +1,152 @@
+window=MP3Gain
+
+FolderNotFound=The given Folder doesn't exist.
+GainError=Error while calculating Gain.
+FileNotFound=The given File doesn't exist.
+TargetNoNumber=The Target Volume has to be a number
+changeSuccessful=Gain changed successfully.
+confirmChangeGain=Are you sure you want to change the gain?
+mp3gainNotReady=mp3gain seems not be ready. Under unix please install mp3gain and under windows make sure the mp3gain file is in the mp3gain folder in the same folder as this application. The mp3gain module is not usable.
+
+trackFileNotAnalysed=The audio file '{0}' is not analysed and will be skipped. Please analyse it first.
+albumFileNotAnalysed=At least one audio file is not analysed. Please analyse them before changing the album gain.
+
+Col1=Filename
+Col2=FilePath
+Col3=Track Volume
+Col4=Track Gain
+Col5=Album Volume
+Col6=Album Gain
+
+***********
+* JButton *
+***********
+addFileB.label=
+addFileB.icon=view/images/general/addFile.png
+addFileB.shortcut=
+addFileB.actionCommand=addFileB
+addFileB.toolTip=Adds a file to the list.
+
+deleteAllB.label=
+deleteAllB.icon=view/images/general/deleteAll.png
+deleteAllB.shortcut=
+deleteAllB.actionCommand=deleteAllB
+deleteAllB.toolTip=Deletes all loaded files from the list.
+
+deleteFileB.label=
+deleteFileB.icon=view/images/general/deleteFile.png
+deleteFileB.shortcut=
+deleteFileB.actionCommand=deleteFileB
+deleteFileB.toolTip=Deletes the selected files from the list.
+
+startTrackGainB.label=
+startTrackGainB.icon=view/images/general/start.png
+startTrackGainB.shortcut=
+startTrackGainB.actionCommand=startTrackGainB
+startTrackGainB.toolTip=Changes the gain of the files depending on the made configuration. Before the track can be changed it has to be analysed first.
+
+startAnalyseB.label=
+startAnalyseB.icon=view/images/general/analyse.png
+startAnalyseB.shortcut=
+startAnalyseB.actionCommand=startAnalyseB
+startAnalyseB.toolTip=starts to analyse the files depending on the made configuration.
+
+addFolderB.label=
+addFolderB.icon=view/images/general/addFolder.png
+addFolderB.shortcut=
+addFolderB.actionCommand=addFolderB
+addFolderB.toolTip=Adds a all files from a folder to the list.
+
+*************
+* JCheckBox *
+*************
+forceRecalcChB.label=force recalc
+forceRecalcChB.icon=
+forceRecalcChB.shortcut=
+forceRecalcChB.actionCommand=forceRecalcChB
+forceRecalcChB.toolTip=If checked the gain will be recalculated even if the value is already set.
+
+recursiveChB.label=recursive
+recursiveChB.icon=
+recursiveChB.shortcut=
+recursiveChB.actionCommand=recursiveChB
+recursiveChB.toolTip=If checked subfolders will be scanned too.
+
+**********
+* JLabel *
+**********
+targetVolJL.label=Traget Volume: 
+targetVolJL.icon=
+targetVolJL.toolTip=
+
+dbJL.label=dB
+dbJL.icon=
+dbJL.toolTip=
+
+**********
+* JPanel *
+**********
+gainTypeP.label=Gain Type:
+gainTypeP.toolTip=
+
+analyseP.label=Analyse:
+analyseP.toolTip=
+
+changeGainP.label=change Gain:
+changeGainP.toolTip=
+
+filesP.label=Files:
+filesP.toolTip=
+
+miscP.label=Misc:
+miscP.toolTip=
+
+****************
+* JRadioButton *
+****************
+analyseAllRB.label=all
+analyseAllRB.icon=
+analyseAllRB.shortcut=
+analyseAllRB.actionCommand=analyseAllRB
+analyseAllRB.toolTip=Analyses the gain of all files in this list doesn't matter which one are selected.
+
+analyseSelectedRB.label=selected
+analyseSelectedRB.icon=
+analyseSelectedRB.shortcut=
+analyseSelectedRB.actionCommand=analyseSelectedRB
+analyseSelectedRB.toolTip=Analyses the gain of all selected files.
+
+changeGainAllB.label=all
+changeGainAllB.icon=
+changeGainAllB.shortcut=
+changeGainAllB.actionCommand=changeGainAllB
+changeGainAllB.toolTip=Changes the gain of all files in this list doesn't matter which one are selected.
+
+changeGainSelectedRB.label=selected
+changeGainSelectedRB.icon=
+changeGainSelectedRB.shortcut=
+changeGainSelectedRB.actionCommand=changeGainSelectedRB
+changeGainSelectedRB.toolTip=Changes the gain of all selected files.
+
+albumGainRB.label=Album Gain
+albumGainRB.icon=
+albumGainRB.shortcut=
+albumGainRB.actionCommand=albumGainRB
+albumGainRB.toolTip=Calculates the album gain. In album gain mode it tries to find the loudest part of mp3s selected mp3s and tries to adjust them to this value.
+
+trackGainRB.label=Track Gain
+trackGainRB.icon=
+trackGainRB.shortcut=
+trackGainRB.actionCommand=trackGainRB
+trackGainRB.toolTip=Calculates the track gain. It changes the gain of the selected files to the given target volume. If all files have the same target volume they appear to have the same loudness.
+
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+**************
+* JTextField *
+**************
+targetVolTF.toolTip=The target volume. Do not make this value too high, otherwise you get clipping. The default and recommended value is 89.

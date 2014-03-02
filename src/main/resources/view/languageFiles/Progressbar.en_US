@@ -1,0 +1,20 @@
+***********
+* Buttons *
+***********
+cancelB.label=
+cancelB.icon=view/images/id3tag/subwindows/cancel.png
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+
+**********
+* JLabel *
+**********
+progressJL.label=Progress ...
+progressJL.icon=
+progressJL.toolTip=
+
+statusJL.label=
+statusJL.icon=
+statusJL.toolTip=

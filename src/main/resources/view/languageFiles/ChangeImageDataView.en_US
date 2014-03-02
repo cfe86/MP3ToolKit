@@ -1,0 +1,99 @@
+window=Cover Art Changer
+
+ImageLoadError=Error while loading the Image.
+
+***********
+* JButton *
+***********
+nextTagB.label=
+nextTagB.icon=view/images/id3tag/subwindows/nxtTag.png
+nextTagB.shortcut=
+nextTagB.actionCommand=nextTagB
+nextTagB.toolTip=
+
+**************
+* ImagePanel *
+**************
+currIP.toolTip=
+
+newIP.toolTip=
+
+*************
+* JCheckBox *
+*************
+imageChB.label=
+imageChB.icon=
+imageChB.shortcut=
+imageChB.actionCommand=imageChB
+imageChB.toolTip=
+
+repeatChB.label=repeat for all mp3s
+repeatChB.icon=
+repeatChB.shortcut=
+repeatChB.actionCommand=repeatChB
+repeatChB.toolTip=
+
+**********
+* JLabel *
+**********
+artistJL.label=
+artistJL.icon=
+artistJL.toolTip=
+
+counterJL.label=
+counterJL.icon=
+counterJL.toolTip=
+
+newExtensionJL.label=
+newExtensionJL.icon=
+newExtensionJL.toolTip=
+
+sizeCurrJL.label=Size:
+sizeCurrJL.icon=
+sizeCurrJL.toolTip=
+
+sizeNewJL.label=Size:
+sizeNewJL.icon=
+sizeNewJL.toolTip=
+
+currSizeJL.label=
+currSizeJL.icon=
+currSizeJL.toolTip=
+
+extNewJL.label=Extension:
+extNewJL.icon=
+extNewJL.toolTip=
+
+newSizeJL.label=
+newSizeJL.icon=
+newSizeJL.toolTip=
+
+currDimJL.label=
+currDimJL.icon=
+currDimJL.toolTip=
+
+extCurrJL.label=Extension:
+extCurrJL.icon=
+extCurrJL.toolTip=
+
+currExtensionJL.label=
+currExtensionJL.icon=
+currExtensionJL.toolTip=
+
+dimNewJL.label=Dimension:
+dimNewJL.icon=
+dimNewJL.toolTip=
+
+newDimJL.label=
+newDimJL.icon=
+newDimJL.toolTip=
+
+dimCurrJL.label=Dimension:
+dimCurrJL.icon=
+dimCurrJL.toolTip=
+
+**********
+* JPanel *
+**********
+tagP.label=Cover Art:
+tagP.toolTip=

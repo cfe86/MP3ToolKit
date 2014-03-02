@@ -1,0 +1,37 @@
+window=About
+
+
+**********
+* JLabel *
+**********
+nameJL.label=<html><span STYLE="font-family: Georgia; font-size: 45pt">MP3 Tool Kit</span></html>
+nameJL.icon=
+nameJL.toolTip=
+
+versionJL.label=Version:
+versionJL.icon=
+versionJL.toolTip=
+
+versionTextJL.label={0}
+versionTextJL.icon=
+versionTextJL.toolTip=
+
+softwareUpdateJL.label=Last Software Update:
+softwareUpdateJL.icon=
+softwareUpdateJL.toolTip=
+
+softwareUpdateTextJL.label={0}
+softwareUpdateTextJL.icon=
+softwareUpdateTextJL.toolTip=
+
+developedJL.label=Developed by:
+developedJL.icon=
+developedJL.toolTip=
+
+developedTextJL.label=Christian Feier <ChristianFeier@gmx.de>
+developedTextJL.icon=
+developedTextJL.toolTip=
+
+copyrightJL.label=Copyright (c) 2014, Christian Feier
+copyrightJL.icon=
+copyrightJL.toolTip=

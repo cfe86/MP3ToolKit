@@ -1,0 +1,49 @@
+window=Lyrics Changer
+
+***********
+* JButton *
+***********
+nextTagB.label=
+nextTagB.icon=view/images/id3tag/subwindows/nxtTag.png
+nextTagB.shortcut=
+nextTagB.actionCommand=nextTagB
+nextTagB.toolTip=
+
+*************
+* JCheckBox *
+*************
+repeatChB.label=repeat for all mp3s
+repeatChB.icon=
+repeatChB.shortcut=
+repeatChB.actionCommand=repeatChB
+repeatChB.toolTip=
+
+lyricsChB.label=
+lyricsChB.icon=
+lyricsChB.shortcut=
+lyricsChB.actionCommand=lyricsChB
+lyricsChB.toolTip=
+
+**********
+* JLabel *
+**********
+artistJL.label=
+artistJL.icon=
+artistJL.toolTip=
+
+counterJL.label=
+counterJL.icon=
+counterJL.toolTip=
+
+**********
+* JPanel *
+**********
+lyricsP.label=MP3 Lyrics:
+lyricsP.toolTip=
+
+*************
+* JTextArea *
+*************
+newLyrics.toolTip=
+
+currLyrics.toolTip=
