@@ -1,4 +1,4 @@
-# MP3 Tool Kit
+# MP3 Tool Kit - Technical Description
 
 A short non technical introduction can be found here: 
 This document is more a technical introduction and explains how to modify this application.
