@@ -208,4 +208,4 @@ The sourcecode of the updater can be found in the `Updater-1.0.jar`.
 
 ## Copyright
 
-Copyright (c) 2014 Christian Feier. See licence.txt for details.
+Copyright (c) 2015 Christian Feier. See licence.txt for details.
