@@ -204,4 +204,4 @@ The new folder is shown in the table on the right side. After analyzing (this st
 
 ## Copyright
 
-Copyright (c) 2014 Christian Feier. See licence.txt for details.
+Copyright (c) 2015 Christian Feier. See licence.txt for details.
